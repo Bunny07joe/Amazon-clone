@@ -16,7 +16,7 @@
     width: 100px;
 }
 .logo{
-    background-image: url("/Amazon-clone/Images/AMAZON_logopng.png");
+    background-image: url("/Images/AMAZON_logopng.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -130,7 +130,7 @@ span{
 /* hero section styling */
 
 .hero-section{
-    background-image: url("/Amazon-clone/Images/Firstimage.jpg");
+    background-image: url("/Images/Firstimage.jpg");
     background-size: cover;
     height: 380px;
     display: flex;
@@ -193,6 +193,7 @@ span{
 footer{
     margin-top: 15px;
 }
+/* back to Top */
 
 .Foot-pannel1{
     height: 50px;
@@ -203,4 +204,59 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 0.9rem;
+}
+/* Other Links Ads */
+.foot-pannel2{
+    height: 300px;
+    width: 100%;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-links ul p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.foot-links{
+    margin-top: 50px;  
+ 
+}
+
+.foot-links ul a{
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 200%;
+    
+}
+
+/* Ending page */
+
+.foot-pannel-3{
+    border-top:0.5px solid #394b5e;
+    background-color: #232F3E;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-logo{
+    display: flex;
+    height: 70px;
+    width: 150px;
+    background-image: url("/Images/AMAZON_logopng.png");
+    background-size: cover;
+    position: relative;
+    top :-12px;
+}
+.Bot-box{
+    border: 1px solid #394b5e;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: white;
+
 }
