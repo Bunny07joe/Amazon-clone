@@ -15,7 +15,13 @@
     height: 50px;
     width: 100px;
 }
-
+.logo{
+    background-image: url("images/AMAZON_logopng.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
 .border{
     border: 1.5px solid transparent;
 }
@@ -123,6 +129,16 @@ span{
 
 /* hero section styling */
 
+.hero-section{
+    background-image: url("images/Firstimage.jpg");
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
 
 .hero-meassage{
     height: 40px;
@@ -227,7 +243,16 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
-
+.footer-logo{
+    display: flex;
+    height: 70px;
+    width: 150px;
+    background-image: url("images/AMAZON_logopng.png");
+    background-size: cover;
+    position: relative;
+    top :-12px;
+    right: 60px;
+}
 .Bot-box{
     border: 1px solid #394b5e;
     padding: 8px;
